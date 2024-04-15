@@ -20,5 +20,7 @@ The primary dataset used for this analysis is in the combined .csv files found i
 
 ### Data Visualization
 
+The full interactive dashboard can be found in the repository as "PatientWaitlist.pbix". A snapshot can be seen below. 
+
 <img width="1005" alt="Screen Shot 2024-04-15 at 12 22 38 PM" src="https://github.com/sarahkpree/Patient_Waitlist/assets/61251211/72e4be78-5caf-478c-ae8f-d07ac19a8ff8">
 
