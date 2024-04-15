@@ -6,23 +6,19 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Visualization](#data-visualization)
-- [Limitations](#limitations)
 
 ### Project Overview
-This project involved creating an ER dashboard using simulated patient census data spanning 18 months, with nine visualizations including total patient encounters, gender breakdown, admission rates, average wait time and satisfaction scores over time, age group distribution, patient race breakdown, department referral distribution, and a heatmap of average wait time by day and time. This dashboard provides a comprehensive overview of ER operations, enabling professionals to monitor patient flow, demographic trends, and service efficiency. Such insights are important for optimizing resource allocation, improving patient satisfaction, and improving quality of care.
+The PowerBI dashboard provides a comprehensive view of the patient waitlist at the hospital, featuring various visualizations based on key criteria. These include a pie chart illustrating the distribution of case types (inpatient, outpatient, or day case), a stacked column chart showing wait times categorized by age group, and a list highlighting the top 5 specialties with the longest wait times. Additionally, line charts track the total cases over time, with separate lines for each case type and a specific line for outpatient cases. Users can filter the data by date, case type, and specialty to tailor their analysis.
 
 ### Data Sources
-The primary dataset used for this analysis is the "EmergencyRoom_Dashboard.csv" file, containing patient census data, satisfaction score, wait time, and admission pinformation. 
+The primary dataset used for this analysis is in the combined .csv files found in the "data" folder. This dataset contains info about the patient waitlist, including date, speciality, waittime, and age group.
 
 ### Tools
 
 - Excel - Data Inspection
-- Tableau - Data Visualization
+- PowerBI - Data Visualization
 
 ### Data Visualization
 
-LINK: Put link to Tableau public here.
+<img width="1005" alt="Screen Shot 2024-04-15 at 12 22 38 PM" src="https://github.com/sarahkpree/Patient_Waitlist/assets/61251211/72e4be78-5caf-478c-ae8f-d07ac19a8ff8">
 
-### Limitations
--  The dashboard only provides a snapshot of certain aspects of ER operations and patient demographics. It does not capture all relevant factors such as staffing levels, resource availability, or severity of patient conditions.
--  The dashboard remains static, lacking the ability to update with evolving data as of now. 
